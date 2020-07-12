@@ -1,0 +1,87 @@
+/* syntax */
+/* Selector {
+    Property: value;
+} */
+
+/* global style by star * */
+/* * {
+    text-align: center;
+} */
+
+
+/* style by element */
+/* body {
+    background-image: url(../figs/bkground.JPG);
+    background-size: cover;
+} */
+
+p {
+    color: brown;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav {
+    text-align: right;
+}
+
+/* style by element, element; element element; element > element*/
+/* style by :hover*/
+/* /* h2, p:hover { */ 
+h2 {
+    color: mediumaquamarine;
+}
+
+p { 
+    color: blue;
+    text-align: center;
+    border: 5px dashed purple;
+    cursor: pointer;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+p {
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 20px;
+    /* font-style: italic; */
+    font-weight: bold;
+    font-size: 120%;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* style by .class */
+.webtext {
+    border: purple 5px solid;
+}
+
+/* style by first/last child */
+/* .webtext:last-child {
+    border: purple 5px solid;
+} */
+
+.active {
+    color: red;
+}
+
+/* style by #id */
+#div1 {
+    background: skyblue;
+}
+
+#div2 {
+    background: lightyellow;
+}
+
+/* style by #id */
