@@ -30,6 +30,9 @@ knitr::opts_chunk$set(comment="",
 * allocate memory
 * parse and execute
 
-## Chrome V8
-* memory heap
-* call stack
+## git branch 
+```{git}
+git branch littlefeature 
+git checkout littlefeature
+
+```
