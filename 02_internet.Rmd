@@ -26,3 +26,10 @@ knitr::opts_chunk$set(comment="",
 ![](./figs/s2_1.png)
 
 
+## what is a program
+* allocate memory
+* parse and execute
+
+## Chrome V8
+* memory heap
+* call stack
