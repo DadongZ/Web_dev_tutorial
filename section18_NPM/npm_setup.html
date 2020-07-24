@@ -8,4 +8,19 @@
 <span class="fu">sudo</span> npm install -g npm@latest
 <span class="ex">reboot</span>
 <span class="ex">npm</span> --version
-<span class="co">#6.14.6</span></code></pre></div>
+<span class="co">#6.14.6</span>
+<span class="ex">npm</span> init</code></pre></div>
+<!-- update node.js -->
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="co">#install nvm</span>
+<span class="ex">curl</span> -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.1/install.sh <span class="kw">|</span> <span class="fu">bash</span>
+<span class="ex">nvm</span> --version
+<span class="co">#0.35.1</span>
+<span class="co">#clean cache</span>
+<span class="ex">npm</span> cache clean -f
+
+<span class="co">#install node.js v12.18.2</span>
+<span class="ex">nvm</span> install 12.18.2
+<span class="ex">node</span> --version
+<span class="co">#v12.18.2</span></code></pre></div>
+<!-- generate package.json -->
+<pre class="{bash}"><code>node init</code></pre>
